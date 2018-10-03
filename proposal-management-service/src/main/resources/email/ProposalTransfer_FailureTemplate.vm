@@ -1,0 +1,15 @@
+#set ( $dateFormat = $dateTool.getDateFormat("yyyy-MM-dd HH:mm:ss", $dateTool.getLocale(), $dateTool.getTimeZone()) )
+#set ( $date = $dateTool.format("yyyy-MM-dd HH:mm:ss", $timestamp))
+
+<html>
+	<body>
+		User: ${user}<br>
+        Error Date/Time: $date<br>
+        PSM Proposal Preparation ID: ${psmPropPrepId}<br>
+        PSM Proposal Revision ID: ${psmPropRevId}<br>
+        Proposal Transfer Request ID: ${transferRequestId}<br>
+        Error: ${failureMessage}<br>
+    </body>
+</html>
+
+

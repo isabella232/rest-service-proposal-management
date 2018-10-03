@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+         <style type="text/css">
+    		.content {
+    			margin: 5px;
+    			padding: 5px;
+    			font-size: 14px;
+    			float: left;
+    	    }
+	     </style>
+   </head>
+	<body>
+	<div class='content'>
+   		<div class='box'>
+   			A Budget Revision has been submitted to NSF by:<br><br>
+			<b>Authorized Organizational Representative (AOR) Name:</b>&nbsp;${nameReference}<br>
+			<b>Organization Name:</b>&nbsp;${instName}<br>
+			<b>Proposal ID:</b>&nbsp;${proposalId}<br>
+			<b>Proposal Title:</b>&nbsp;${proposalTitle}<br>
+			<b>Submitted On:</b>&nbsp;${dateTimeAdded}<br><br>
+	        The Budget Revision has been accepted and the original proposal has been updated.<br>
+	        This proposal can be accessed from your listing of submitted proposals within Research.gov.<br><br>
+	        <a href="https://identity.research.gov/sso/UI/Login?module=nsf&env=prvw&app=portal">Sign into Research.gov</a>
+	     </div><br>
+	      ${disclaimer}
+      </div>
+    </body>
+</html>

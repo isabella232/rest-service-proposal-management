@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+         <style type="text/css">
+    		.content {
+    			margin: 5px;
+    			padding: 5px;
+    			font-size: 14px;
+    			float: left;
+    	    }
+	     </style>
+   </head>
+	<body>
+	<div class='content'>
+   		<div class='box'>
+   			A Proposal File Update was submitted by:<br><br>
+   			<b>Principal Investigator (PI) Name</b>:&nbsp;${piName}<br>
+   			<b>PI Email</b>:&nbsp;${piEmail}<br>
+   			<b>Authorized Organization Representative (AOR) Name</b>:&nbsp;${aorName}<br>
+   			<b>AOR Email</b>:&nbsp;${aorEmail}<br>
+			<b>Organization Name:</b>&nbsp;${instName}<br>
+			<b>Proposal ID:</b>&nbsp;${proposalId}<br>
+			<b>Proposal Title:</b>&nbsp;${proposalTitle}<br>
+			<b>Submitted On:</b>&nbsp;${dateTimeAdded}<br><br>
+	        <b>Justification for Update:</b>&nbsp;${justificationText}<br><br>
+			Please visit the Electronic Jacket to review the changes.  Once you have reviewed the changes, please send an e-mail with<br>
+			your decision to accept or reject this proposal file update to the PI and AOR at the e-mail addresses noted above and CC the<br>
+			ITSIS PSM OP Support team.  If you reject the proposal file update, please also note the reason that it is being rejected in<br> 
+			your e-mail. 
+	     </div><br>
+	      ${disclaimer}
+      </div>
+    </body>
+</html>

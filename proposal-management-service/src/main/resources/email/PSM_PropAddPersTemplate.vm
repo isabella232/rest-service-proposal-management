@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+         <style type="text/css">
+    		.content {
+    			margin: 5px;
+    			padding: 5px;
+    			font-size: 14px;
+    			float: left;
+    	    }
+	     </style>
+   </head>
+	<body>
+	<div class='content'>
+   		<div class='box'>
+	        <b>${nameReference}</b> ${firstLineInsert} to the following proposal:<br><br>
+	        <b>${proposalIdTitle}:</b>&nbsp;${proposalId}<br>
+	        <b>Proposal Title:</b>&nbsp;${proposalTitle}<br>
+	        <b>Date/Time Person Added:</b>&nbsp;${dateTimeAdded}<br><br>
+	        This proposal can be accessed from your listing of ${propStatus} proposals within Research.gov.<br><br>
+	        <a href="https://identity.research.gov/sso/UI/Login?module=nsf&env=prvw&app=portal">Sign into Research.gov</a>
+	     </div><br>
+	     ${disclaimer}
+      </div>
+    </body>
+</html>

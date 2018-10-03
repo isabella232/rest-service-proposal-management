@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+	         updateCheck="true" monitoring="autodetect"
+	         dynamicConfig="true">
+
+     <cache name="allFundingOpsCache" 
+      maxElementsInMemory="300"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="allDivisionsCache" 
+      maxElementsInMemory="50"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="allDirectoratesCache" 
+      maxElementsInMemory="15"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="allProgElementsCache" 
+      maxElementsInMemory="600"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="dirByFundOpCache" 
+      maxElementsInMemory="100"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+            
+     <cache name="divsByFundOpCache" 
+      maxElementsInMemory="100"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+            
+     <cache name="dirsByFundOpCache" 
+      maxElementsInMemory="100"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="progsByFundOpCache" 
+      maxElementsInMemory="300"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="proposalTypesCache" 
+      maxElementsInMemory="20"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+
+     <cache name="submissionTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />         
+      
+     <cache name="collabTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="othPersRoleTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />    
+      
+     <cache name="senrPersRoleTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />          
+      
+     <cache name="instRoleTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />  
+      
+     <cache name="countriesCache" 
+      maxElementsInMemory="200"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />  
+      
+     <cache name="statesCache" 
+      maxElementsInMemory="100"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />  
+       
+      <cache name="deadlineTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />         
+      
+     <cache name="loginUserRoleTypesCache" 
+      maxElementsInMemory="10"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />
+      
+     <cache name="loginUserPermissionsCache"  
+      maxElementsInMemory="500"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="43200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />          
+
+     <cache name="udsUserDataCache"  
+      maxElementsInMemory="50"
+      eternal="false"
+      timeToIdleSeconds="0" 
+      timeToLiveSeconds="1200"
+      overflowToDisk="false" 
+      memoryStoreEvictionPolicy="LRU"         
+      />          
+    
+</ehcache>
